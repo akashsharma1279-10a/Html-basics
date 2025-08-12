@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #john{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+
+        <H1>Registration Form</H1>
+        <table border="1" height="100%" width="100%">
+            <tr>
+                <th>ur name</th>
+                <th><input type="text" placeholder="Username"></th>
+            </tr>
+            <tr>
+                <th>ur class</th>
+                <th><input type="text" placeholder="Enter ur class"></th>
+            </tr>
+            <tr>
+                <th>Date of Birth:</th>
+                <th><input type="text" placeholder="Enter your DOB"></th>
+            </tr>
+            <tr>
+                <th>Your Email id:</th>
+                <th><input type="text" placeholder="Enter ur id"></th>
+            </tr>
+            <tr>
+                <th>Your Favourite Skills</th>
+                <th><input type="text" placeholder="Enter ur skills"></th>
+            </tr>
+            <tr>
+                <th>ur class</th>
+                <th><input type="text" placeholder="Enter ur class"></th>
+            </tr>
+            <tr>
+                <th>
+                    <p>Message</p>
+                </th>
+                <th>        <textarea name="message" id="message">message</textarea>
+</th>
+            </tr>
+<!--Ask BOUT 3 FORMS BASIC to advanced n practice it   Submit.php     ,   action -->
+        </table>
+            <p class="john">Gender:</p>
+            <input type="radio" id="male" value="MALE" name="Gender">
+            <label for="male">MALE</label> 
+
+            
+            <input type="radio" id="female" value="FEMALE" name="Gender">
+            <label for="female">FEMALE</label> 
+            <br><br><br><br><br>
+<!-- 
+            lecture -->
+<!-- we can use h1 as many times as possible  -->
+        <label for="skills"><h2>Skills:</h2></label><br>
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS 
+        <input type="checkbox" name="skills" value="JS"> JS
+        <br>
+        <br><br><br><br>
+<!--for is for to select n name is to assign them id for working on css -->
+        <label for="country">Country:</label><br>
+        <select name="country" id="country"> 
+            <option value="">CHINA</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select><br><br>
+
+        <label for="dob" required>Date of Birth:</label>
+        <input type="date" name="dob" value="dob" required>
+        
+<br><br>
+    </form>
+    
+<!-- 
+VVVVVVVVVVVVVVVVVVVVVVVVVVIMportant WRite the option of  submit. -->
+
+</body>
+</html>
